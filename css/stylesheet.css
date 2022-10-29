@@ -2401,7 +2401,8 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   z-index: 0;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
+  background-size: contain;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   transition: background-image 300ms ease-in 200ms;
