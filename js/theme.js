@@ -205,6 +205,10 @@ $(".portfolio-filter").each(function() {
 			layoutMode: "masonry",
 			originLeft: rtlVal
 		});
+	// initially load photos before everything else
+	$grid.isotope({
+	  filter: '.photos'
+	})
 	$(".portfolio-menu").find("a").on("click", function() {
         var filterValue = $(this).attr("data-filter");
         return $(".portfolio-menu").find("a").removeClass("active"), $(this).addClass("active"), 
