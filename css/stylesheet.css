@@ -2402,10 +2402,16 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   transition: background-image 300ms ease-in 200ms;
+}
+
+@media (max-width: 575.98px) {
+  .hero-wrap .hero-bg {
+    background-attachment: scroll !important;
+  }
 }
 
 .hero-wrap .hero-bg.hero-bg-scroll {

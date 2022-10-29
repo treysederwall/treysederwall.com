@@ -590,6 +590,13 @@ background-color: rgba(250,250,250,0.2);
 	&.hero-bg-scroll{
 		background-attachment: scroll;
 	}
+
+  @media (max-width: 575.98px) {
+    .hero-wrap .hero-bg {
+      background-attachment: scroll !important;
+    }
+  }
+
   }
   .hero-bg-slideshow {
     .hero-bg {
