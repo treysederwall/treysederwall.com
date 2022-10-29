@@ -2411,6 +2411,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
 @media (max-width: 575.98px) {
   .hero-wrap .hero-bg {
     background-attachment: scroll !important;
+    background-position: center !important;
   }
 }
 
